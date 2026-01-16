@@ -1,0 +1,117 @@
+.page-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #0d6efd;
+    margin-bottom: 2rem;
+}
+
+.files-card {
+    background: #ffffff;
+    border-radius: 1.3rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.files-card-header {
+    padding: 1.2rem 2rem;
+    background: linear-gradient(135deg, #0d6efd, #084298);
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.files-card-body {
+    padding: 2rem;
+}
+
+.files-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0.8rem;
+}
+
+.files-table thead {
+    display: none;
+}
+
+.files-table tbody tr {
+    background: #f8fafc;
+    border-radius: 1rem;
+    transition: all 0.2s ease;
+}
+
+.files-table tbody tr:hover {
+    background: #eef2ff;
+}
+
+.files-table td {
+    padding: 1.2rem;
+    font-size: 0.95rem;
+    color: #334155;
+    vertical-align: middle;
+}
+
+.files-table td:first-child {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.files-table td:last-child {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.files-table td:nth-child(1)::before {
+    content: "Archivo";
+}
+
+.files-table td:nth-child(2)::before {
+    content: "Descripción";
+}
+
+.files-table td:nth-child(3)::before {
+    content: "Fecha";
+}
+
+.files-table td::before {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: 700;
+    margin-bottom: 0.3rem;
+    color: #64748b;
+}
+
+.actions {
+    display: flex;
+    gap: 0.7rem;
+    justify-content: flex-start;
+}
+
+.btn-download {
+    background: #0d6efd;
+    color: #ffffff;
+    padding: 0.55rem 1.1rem;
+    border-radius: 0.7rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.btn-download:hover {
+    background: #084298;
+}
+
+.no-files {
+    padding: 2.5rem;
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #64748b;
+}
+
+.pagination-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}

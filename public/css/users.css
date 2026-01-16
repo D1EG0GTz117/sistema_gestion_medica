@@ -1,0 +1,212 @@
+.page-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #0d6efd;
+    margin-bottom: 2rem;
+}
+
+.users-card {
+    width: 100%;
+    background: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    padding: 1.5rem;
+}
+
+.users-card-header {
+    background: linear-gradient(135deg, #0d6efd, #084298);
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 1rem 1rem 0 0;
+}
+
+.users-card form {
+    display: flex;
+    gap: 0.5rem;
+    margin: 1rem 0;
+}
+
+.users-card input[type="text"] {
+    flex: 1;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da;
+    font-size: 0.9rem;
+}
+
+.users-card button.btn-primary {
+    background-color: #0d6efd;
+    color: #fff;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.45rem 1rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.users-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0.5rem;
+}
+
+.users-table thead th {
+    background-color: #f0f4ff;
+    color: #0d6efd;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.9rem;
+}
+
+.users-table tbody td {
+    background: #ffffff;
+    padding: 0.85rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.03);
+}
+
+.role-badge {
+    padding: 0.45rem 0.9rem;
+    font-size: 0.75rem;
+    border-radius: 999px;
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.role-empty {
+    background-color: #6c757d;
+}
+
+.users-table td[data-label="Acciones"] {
+    text-align: center;
+}
+
+.users-table td[data-label="Acciones"] .actions {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-wrap: nowrap;
+}
+
+.users-table td[data-label="Acciones"] .actions form {
+    display: inline-flex;
+}
+
+.actions .btn-edit,
+.actions .btn-delete {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 38px;
+    padding: 0.45rem 1rem;
+    font-size: 0.85rem;
+    line-height: 1;
+    border-radius: 0.5rem;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+.btn-edit {
+    background-color: #ffc107;
+    color: #000 !important;
+}
+
+.btn-edit:hover {
+    background-color: #ffb300;
+}
+
+.btn-delete {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.btn-delete:hover {
+    background-color: #bb2d3b;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 42px;
+    height: 22px;
+}
+
+.switch input {
+    opacity: 0;
+}
+
+.slider {
+    position: absolute;
+    inset: 0;
+    background-color: #e5e7eb;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.slider::before {
+    content: "";
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    left: 2px;
+    top: 2px;
+    background: #fff;
+    border-radius: 50%;
+    transition: 0.25s;
+}
+
+.switch input:checked+.slider {
+    background-color: #10b981;
+}
+
+.switch input:checked+.slider::before {
+    transform: translateX(20px);
+}
+
+.no-users {
+    padding: 2rem;
+    font-weight: 600;
+    color: #6c757d;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+}
+
+.pagination {
+    display: flex;
+    gap: .3rem;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination .page-link {
+    padding: .4rem .75rem;
+    border-radius: .45rem;
+    border: 1px solid #dee2e6;
+    color: #0d6efd;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.pagination .page-item.active .page-link {
+    background: linear-gradient(135deg, #0d6efd, #084298);
+    color: #fff;
+}
+
+.pagination-container p {
+    display: none !important;
+}

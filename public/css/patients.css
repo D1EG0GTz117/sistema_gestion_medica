@@ -1,0 +1,94 @@
+.page-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #0d6efd;
+    margin-bottom: 2rem;
+}
+
+.reports-card {
+    width: 100%;
+    max-width: 1000px;
+    background: #ffffff;
+    border-radius: 1.3rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.reports-card-header {
+    padding: 1.2rem 2rem;
+    background: linear-gradient(135deg, #0d6efd, #084298);
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.reports-card-body {
+    padding: 2rem;
+}
+
+.patients-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0.6rem;
+}
+
+.patients-table thead {
+    display: none;
+}
+
+.patients-table tbody tr {
+    background: #f8fafc;
+    border-radius: 1rem;
+    transition: all 0.2s ease;
+}
+
+.patients-table tbody tr:hover {
+    background: #eef2ff;
+}
+
+.patients-table td {
+    padding: 1rem;
+    font-size: 0.95rem;
+    color: #334155;
+}
+
+.patients-table td:first-child {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.patients-table td:last-child {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.status {
+    padding: 0.35rem 0.9rem;
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: 999px;
+}
+
+.status.active {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.status.inactive {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.no-data {
+    padding: 2rem;
+    text-align: center;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #64748b;
+}
+
+.pagination-container {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}

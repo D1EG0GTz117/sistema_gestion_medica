@@ -1,0 +1,121 @@
+.page-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #0d6efd;
+    margin-bottom: 2rem;
+}
+
+.records-card {
+    width: 100%;
+    max-width: 1000px;
+    background: #ffffff;
+    border-radius: 1.3rem;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.records-card-header {
+    padding: 1.2rem 2rem;
+    background: linear-gradient(135deg, #0d6efd, #084298);
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.records-form {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.2rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.form-group label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #334155;
+}
+
+.form-group input,
+.form-group select {
+    padding: 0.6rem 0.75rem;
+    border-radius: 0.5rem;
+    border: 1px solid #cbd5e1;
+    font-size: 0.9rem;
+}
+
+.records-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0.6rem;
+    padding: 1.5rem;
+}
+
+.records-table thead {
+    display: none;
+}
+
+.records-table tbody tr {
+    background: #f8fafc;
+    border-radius: 1rem;
+}
+
+.records-table td {
+    padding: 1rem;
+    font-size: 0.95rem;
+    color: #334155;
+    text-align: center;
+}
+
+.records-table td:first-child {
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.records-table td:last-child {
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.btn-primary {
+    padding: 14px 28px;
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.25s ease;
+    align-self: flex-start;
+}
+
+.btn-primary:hover {
+    background: #142e75;
+    transform: translateY(-1px);
+}
+
+.btn-primary.small {
+    padding: 8px 16px;
+    font-size: 13px;
+}
+
+.no-records {
+    padding: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: #64748b;
+}
+
+.pagination-container {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+}

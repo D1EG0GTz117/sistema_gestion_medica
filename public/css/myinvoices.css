@@ -1,0 +1,122 @@
+.page-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #0d6efd;
+    margin-bottom: 2rem;
+}
+
+.my-invoices-card {
+    width: 100%;
+    background: #ffffff;
+    border-radius: 1rem;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+    padding: 1.5rem;
+}
+
+.my-invoices-card-header {
+    background: linear-gradient(135deg, #0d6efd, #084298);
+    color: #ffffff;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 1rem 1rem 0 0;
+    margin: -1.5rem -1.5rem 1.5rem;
+}
+
+.my-invoices-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 0.6rem;
+}
+
+.my-invoices-table thead th {
+    background-color: #f0f4ff;
+    color: #0d6efd;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.9rem;
+}
+
+.my-invoices-table tbody td {
+    background: #ffffff;
+    padding: 0.85rem;
+    text-align: center;
+    border-radius: 0.6rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.03);
+}
+
+.my-invoices-table td[data-label="Acciones"] .actions {
+    display: inline-flex;
+    gap: 0.5rem;
+}
+
+.btn-view,
+.btn-download {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    padding: 0.45rem 1rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+.btn-view {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.btn-view:hover {
+    background-color: #ffb300;
+}
+
+.btn-download {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.btn-download:hover {
+    background-color: #0b5ed7;
+}
+
+.no-invoices {
+    padding: 2rem;
+    font-weight: 600;
+    color: #6c757d;
+    text-align: center;
+}
+
+.pagination-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 1.5rem;
+}
+
+.pagination {
+    display: flex;
+    gap: .3rem;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination .page-link {
+    padding: .4rem .75rem;
+    border-radius: .45rem;
+    border: 1px solid #dee2e6;
+    color: #0d6efd;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.pagination .page-item.active .page-link {
+    background: linear-gradient(135deg, #0d6efd, #084298);
+    color: #fff;
+}
+
+.pagination-container p {
+    display: none !important;
+}
